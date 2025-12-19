@@ -1,15 +1,14 @@
 import React from 'react';
 import { Translation } from '../types';
 import { Linkedin, Github, Mail, MapPin, Globe, Download, ExternalLink } from 'lucide-react';
-
+import Cv from "./../assets/cv.pdf";
 interface ContactProps {
   t: Translation;
 }
 
 const Contact: React.FC<ContactProps> = ({ t }) => {
   // 🔴 CHANGE THIS to match your actual file name in the public folder
-  const RESUME_PATH = "/assets/cv.pdf"; 
-
+ 
   return (
     <section id="contact" className="py-24 px-6 relative overflow-hidden">
       {/* Decorative Background Glow */}
@@ -32,7 +31,7 @@ const Contact: React.FC<ContactProps> = ({ t }) => {
               
               {/* The PDF Iframe */}
               <iframe 
-                src={`${RESUME_PATH}#toolbar=0`} 
+                src={`${Cv}#toolbar=0`} 
                 title="Resume CV"
                 className="w-full h-full rounded-[1.5rem] bg-white"
                 style={{ border: 'none' }}
@@ -45,7 +44,7 @@ const Contact: React.FC<ContactProps> = ({ t }) => {
             {/* Actions below PDF */}
             <div className="flex justify-center gap-4 mt-6">
               <a 
-                href={RESUME_PATH} 
+                href={Cv} 
                 download="Mohamed_Hadjadji_CV.pdf"
                 className="flex items-center gap-2 px-6 py-3 bg-fuchsia-600 hover:bg-fuchsia-500 rounded-xl font-bold transition-all text-white shadow-lg shadow-fuchsia-600/20"
               >
@@ -53,7 +52,7 @@ const Contact: React.FC<ContactProps> = ({ t }) => {
                 <span>Download PDF</span>
               </a>
               <a 
-                href={RESUME_PATH} 
+                href={Cv} 
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-2 px-6 py-3 glass hover:bg-white/10 rounded-xl font-bold transition-all text-white border border-white/10"
