@@ -2,7 +2,7 @@
 import React from 'react';
 import { Translation } from '../types';
 import { Download, ChevronRight } from 'lucide-react';
-import Me from "./../assets/Mohamed.png";
+import Me from "./../assets/Mohamed.webp";
 import CV from "./../assets/cv.pdf";
 interface HeroProps {
   t: Translation;

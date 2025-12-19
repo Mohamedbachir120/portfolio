@@ -3,20 +3,20 @@ import { Translation } from '../types';
 import { Layout, Smartphone } from 'lucide-react';
 
 // Assets
-import DoctymMobile from "./../assets/doctymMobile.png";
-import KhdemnaMobile from "./../assets/Khdemna.png";
-import Inventaire from "./../assets/inv_mob.png";
-import Rekba from "./../assets/rekba.png";
-import influenceContact from "./../assets/influenceContact2.png";
-import KhdemnaDash from "./../assets/khdemna_landing.png";
-import RaniKhadamDash from "./../assets/ranikhadam_landing.png";
-import Doctym from "./../assets/Doctym.png";
-import Zimail from "./../assets/zimail.png";
-import Zoumi from "./../assets/zoumi.png";
-import usthbElite from "./../assets/doc-2.png";
-import DbManagement from "./../assets/DBmanagement.png";
-import BBC from "./../assets/BBC.png";
-import Koudami from "./../assets/Koudami2.png";
+import DoctymMobile from "./../assets/doctymMobile.webp";
+import KhdemnaMobile from "./../assets/Khdemna.webp";
+import Inventaire from "./../assets/inv_mob.webp";
+import Rekba from "./../assets/rekba.webp";
+import influenceContact from "./../assets/influenceContact2.webp";
+import KhdemnaDash from "./../assets/khdemna_landing.webp";
+import RaniKhadamDash from "./../assets/ranikhadam_landing.webp";
+import Doctym from "./../assets/Doctym.webp";
+import Zimail from "./../assets/zimail.webp";
+import Zoumi from "./../assets/zoumi.webp";
+import usthbElite from "./../assets/doc-2.webp";
+import DbManagement from "./../assets/DB Mgmt.webp";
+import BBC from "./../assets/BBC.webp";
+import Koudami from "./../assets/Koudami2.webp";
 
 interface PortfolioProps {
   t: Translation;
